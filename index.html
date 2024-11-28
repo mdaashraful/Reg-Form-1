@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form by Md.Ashraful islam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="regForm">
+        <form action="">
+            <h1>Registration Form</h1>
+            <div class="input-group">
+                
+                <input type="text" name="firstName" placeholder="First Name" required>
+            </div>
+            <div class="input-group">
+                
+                <input type="text" name="lastName" placeholder="Last Name" required>
+            </div>
+            <div class="input-group">
+                
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+               
+                <input type="number" name="phone" placeholder="Enter Your Number"  required>
+            </div>
+            <div class="input-group">
+                
+                <input type="password" name="password" placeholder="Password"  required>
+            </div>
+         
+            <div class="input-group">
+                
+                <input type="date"  class="input" placeholder="Date of Birth" required>
+            </div>
+            
+            <div>
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female
+            </div>
+            
+            <div class="input-group">
+                
+                <select name="city" class="dropDown" required>
+                    <option value="" disabled selected>Select City</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Cumilla">Cumilla</option>
+                    <option value="Chittagong">Chittagong</option>
+                    <option value="Bogura">Bogura</option>
+                </select>
+            </div>
+            <div class="terms">
+                <input type="checkbox" name="terms" required> I agree to the Terms and Conditions
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
